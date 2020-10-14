@@ -1,0 +1,9 @@
+The main file is index.html.
+
+1 = open html to start.
+
+info = we not have 2 button function in right top.
+
+this code is not well formed. 
+
+this is all writen by team technicave.

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan's Gaming</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="fav.png" type="image/x-icon">
+<style>
+    /* css reset */
+
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+        font-family: 'Sansita Swashed', cursive;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .left {
+
+        display: inline-block;
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left img {
+
+        width: 57px;
+        padding: 2px 33px;
+    }
+
+    .mid {
+        display: flex;
+        width: 46%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 4px 13px
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(60, 255, 0);
+
+    }
+
+    .btn {
+        margin: 13px 9px;
+        color: blue;
+        background-color: yellow;
+        padding: 6px 8px;
+        border: 2px solid blue;
+        border-radius: 23px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Sansita Swashed', cursive;
+
+
+
+    }
+
+    .btn:hover {
+      
+        color: yellow;
+        background-color: blue;
+       
+        border: 2px solid rgb(255, 0, 0);
+        
+       
+        cursor: pointer;
+    }
+
+    .container {
+        border: 2px solid blue;
+        margin: 105px 114px;
+        padding: 39px 29px;
+        width: 46%;
+        border-radius: 24px;
+    }
+
+    #heading {
+        margin: -183px 1px;
+        padding: 60px 208px;
+        color: yellow;
+        text-decoration: underline;
+        font-size: 34px;
+    }
+
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 430px;
+        padding: 6px;
+        border: 2px solid red;
+        margin: 3px auto;
+        border-radius: 18px;
+        font-size: 20px;
+        font-family: 'Sansita Swashed', cursive;
+
+
+    }
+
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+       padding: 6px 4px;
+        width: 23%;
+        margin: 16px 202px;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>
+                Aryan Gaming Book
+            </div>
+        </div>
+
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gaming.html">Gaming Book</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <a href="gaming.html"> <button class="btn">Game With us</button></a><a href="privacy.html"><button class="btn">Privacy</button></a>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Discord Server of Technicave</h1>
+        <form action="gaming.html">
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Enter your profession">
+            </div>
+            <button class="btn">Join Server</button>
+        </form>
+
+
+    </div>
+
+    
+</body>
+
+</html>
